@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scary Surprise</title>
+<style>
+  body {
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+<audio id="scream" src="https://www.soundboard.com/mediafiles/22/226739-4a4d47b4-4dbd-4ac5-80b0-3dd7f2a4d93b.mp3"></audio>
+
+<!-- Scary face image -->
+<img id="scary" src="https://i.
